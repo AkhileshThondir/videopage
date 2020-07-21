@@ -1,0 +1,114 @@
+body{
+	margin:auto 0;
+
+}
+.navbar{
+	display: flex;
+	list-style: none;
+	background-color: black;
+	margin:0;
+	font-size: 20px;
+	font-family: 'Faustina', serif; 
+}
+.fa-search{
+	color: white;
+	margin-top: 15px;
+	background-color: red;
+	margin-bottom: 14.1px;
+	padding: 3.2px 5px;
+}
+input{
+	text-align: center;
+	float: none;
+	margin-top: 15px;
+	padding: 5px 10px;
+	width: 15%;
+	height: 25%;
+
+}
+
+.push{
+	margin-left: auto;
+	display: flex;
+}
+
+li{
+	color: white;
+	padding:15px 20px;
+	text-align: center;
+	display: block;
+}
+
+.tet{
+	font-size: 20px;
+	margin-left: 15%;
+	padding: 20px;
+	color: white;
+	font-family: 'Faustina', serif;
+}
+/*hr{
+	color: white;
+}*/
+.grid > div{
+	background: #ffffff;
+	padding: 1rem;
+}
+.grid{
+	display: grid;
+	grid-template-columns: 20% 80%;
+	grid-column-gap: 5px;
+}
+
+.grid > .col{
+	background:black;
+}
+
+.wrapper{
+	display: grid;
+	grid-template-columns:repeat(3,1fr);
+	grid-gap: 20px;
+	grid-auto-rows: 200px;
+}
+/*.ttt{
+	color: white;
+
+}*/
+div > .new{
+	display: block;
+	text-align: center;
+	padding: 50px 50px;
+	margin-right: 80px;
+	margin-left: 30px;
+	margin-top: -93px;
+	font-family: 'Faustina', serif; 
+	color: white;
+	font-size: 18px;
+}
+footer{
+	background:black;
+	color: white;
+}
+.noo{
+	font-size: 35px;
+	    margin-bottom: 4%;
+    margin-top: 3%;
+    padding: 27px 201px;
+}
+
+.wrapper1{
+	display: grid;
+	grid-template-columns: 30% 70%;
+}
+.para{
+	text-align: center;
+	font-size: 40px;
+	font-family: 'Faustina', serif; 
+	padding: 10px 0px;
+}
+
+/*.wrapper > div{
+	border: black 1px solid;
+
+}
+
+ */
